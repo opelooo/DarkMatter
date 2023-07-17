@@ -299,8 +299,8 @@ nav[aria-label]>div>header {
   }
 
 body {
-	background: url('src/img/2oyFGAv6WD_1920x1080.jpg') center/cover no-repeat;
-	animation: randomBackground 10s infinite;
+	background: var(--background-image) center/cover no-repeat;
+	/* animation: randomBackground 10s infinite; */
 }
 
 #app-mount {
