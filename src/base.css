@@ -299,7 +299,7 @@ nav[aria-label]>div>header {
   }
 
 body {
-	/* background: var(--background-image) center/cover no-repeat; */
+	background: url('src/img/2oyFGAv6WD_1920x1080.jpg') center/cover no-repeat;
 	animation: randomBackground 10s infinite;
 }
 
