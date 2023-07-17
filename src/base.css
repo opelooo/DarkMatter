@@ -286,22 +286,24 @@ nav[aria-label]>div>header {
 /* Outer containers */
 @keyframes randomBackground {
 	0% {
-	  background-image: url('src/img/2oyFGAv6WD_1920x1080.jpg');
+	  background-image: url('https://raw.githubusercontent.com/opelooo/DarkMatter/main/src/img/2oyFGAv6WD_1920x1080.jpg');
 	}
 	33.3% {
-	  background-image: url('src/img/93oO6GxmdP_1920x1080.jpg');
+	  background-image: url('https://raw.githubusercontent.com/opelooo/DarkMatter/main/src/img/93oO6GxmdP_1920x1080.jpg');
 	}
 	66.6% {
-	  background-image: url('src/img/dVf8ClddWm_1920x1080.jpg');
+	  background-image: url('https://raw.githubusercontent.com/opelooo/DarkMatter/main/src/img/dVf8ClddWm_1920x1080.jpg');
 	}
 	100% {
-	  background-image: url('src/img/pqlPPKRlTC_1920x1080.jpg');
+	  background-image: url('https://raw.githubusercontent.com/opelooo/DarkMatter/main/src/img/pqlPPKRlTC_1920x1080.jpg');
 	}
   }
 
 body {
-	background: var(--background-image) center/cover no-repeat;
-	/* animation: randomBackground 10s infinite; */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: randomBackground 10s infinite;
 }
 
 #app-mount {
