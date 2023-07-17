@@ -300,6 +300,7 @@ nav[aria-label]>div>header {
   }
 
 body {
+	/* background: var(--background-image) center/cover no-repeat; */
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
